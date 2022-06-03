@@ -1,0 +1,21 @@
+.checkoutproduct{
+    display:flex;
+    align-items: center;
+    margin:10px 0;
+}
+.checkoutproduct > img{
+    object-fit: contain;
+    height: 60px;
+    margin-right:10px;
+}
+
+.cart__product__info{
+    margin:0 20px;
+}
+.remove_button > button{
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    border:none;
+    padding: 5px 10px;
+    margin-top:10px;
+    cursor:pointer;
+}   
